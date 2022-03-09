@@ -39,7 +39,7 @@ const Contacts = ({updateFormHandler}) => {
                 <Table.Cell>{item.username.toUpperCase()}</Table.Cell>
                 <Table.Cell>{item.phoneNumber}</Table.Cell>
                 <Table.Cell>{item.gender}</Table.Cell>
-                <Table.Cell onClick={()=>deleteHandler(item.id)} >updateFormHandler
+                <Table.Cell onClick={()=>deleteHandler(item.id)} >
                   <Icon name="delete" />
                 </Table.Cell>
                 <Table.Cell onClick={()=>updateFormHandler(item)}>
